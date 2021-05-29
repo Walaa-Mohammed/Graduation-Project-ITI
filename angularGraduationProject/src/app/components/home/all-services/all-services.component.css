@@ -1,0 +1,40 @@
+@import "../../../../assets/CSS/layout/appStyle.css";
+
+.services__item--business {
+  background-image: url("~/src/assets/images/Home/all-services/bussiness.jpg");
+}
+.services__item--programming {
+  background-image: url("~/src/assets/images/Home/all-services/development.jpg");
+}
+.services__item--marketing {
+  background-image: url("~/src/assets/images/Home/all-services/social.jpg");
+}
+.services__item--training {
+  background-image: url("~/src/assets/images/Home/all-services/remote.jpg");
+}
+.services__item--consulting {
+  background-image: url("~/src/assets/images/Home/all-services/consult.jpg");
+}
+.services__item--designing {
+  background-image: url("~/src/assets/images/Home/all-services/design.jpg");
+}
+.services__item--technology {
+  background-image: url("~/src/assets/images/Home/all-services/tech.jpg");
+}
+.services__item--writing {
+  background-image: url("~/src/assets/images/Home/all-services/translate.jpg");
+}
+.services__item--audio {
+  background-image: url("~/src/assets/images/Home/all-services/audio.jpg");
+}
+.services__item--video-design {
+  background-image: url("~/src/assets/images/Home/all-services/video.jpg");
+}
+.services__item--misc {
+  background-image: url("~/src/assets/images/Home/all-services/remote.jpg");
+}
+
+.clearfix{
+  margin-left: auto !important;
+  margin-right: auto !important;
+}

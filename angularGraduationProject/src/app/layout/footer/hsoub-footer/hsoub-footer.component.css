@@ -1,0 +1,80 @@
+
+
+
+
+.hidden {
+    display: none;
+  }
+  #footer {
+    padding: 50px 10px 20px 10px;
+  }
+  .footer-content {
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+    direction: rtl;
+  }
+  .hsoub-logo {
+    max-width: 160px;
+    margin: 0 auto;
+  }
+  .hsoub-logo img {
+    width: 100%;
+  }
+  .footer-brands {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .brand-item {
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    padding: 6px;
+    margin-bottom: 6px;
+  }
+  .brand-item a.url {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #313335;
+    font: 400 13px tahoma;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .brand-hsoub, .brand-ana, .brand-khamsat, .brand-baaeed, .brand-mostaql, .brand-academy, .brand-io, .brand-suar, .brand-wiki {
+    height: 48px;
+    width: 48px;
+    margin: 0 auto;
+    display: block;
+    background-size: cover;
+    background-color: white;
+    outline: none;
+  }
+  .brand-hsoub {
+    background-position: left top;
+  }
+  .brand-mostaql {
+    background-position: left -125px;
+  }
+  .brand-khamsat {
+    background-position: left -249px;
+  }
+  .brand-io {
+    background-position: left -374px;
+  }
+  .brand-academy {
+    background-position: left -499px;
+  }
+  .brand-suar {
+    background-position: left -623px;
+  }
+  .brand-baaeed {
+    background-position: left -748px;
+  }
+  .brand-ana {
+    background-position: left -872px;
+  }
+  .brand-wiki {
+    background-position: left bottom;
+  }

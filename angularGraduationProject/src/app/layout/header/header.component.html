@@ -1,0 +1,539 @@
+<header class="hsoub-header" style="">
+  <div class="hsoub-box"><a class="hsoub-bars hsoub--visible-h hsoub-desktop hsoub-tablet hsoub-mobile">
+      <i class="hsoub-bars-icon"></i>
+    </a><a href="https://khamsat.com/" class="hsoub-logo"><img
+        class="hsoub-logo-img hsoub--visible-h hsoub-desktop hsoub-tablet "
+        src="../../../assets/images/logo.png"><img
+        class="hsoub-logo-img hsoub--visible-h   hsoub-mobile"
+        src="../../../assets/images/logo.png"></a>
+    <ul class="hsoub-menu ">
+      <li class="hsoub-menu-item hsoub--visible-h hsoub-desktop hsoub-tablet">
+        <a class="hsoub-menu-item-link     " (click)="dropdownMenuToggle()">
+          <i class="hsoub-menu-item-link-icon fa fa-cubes"></i>
+          <span>التصنيفات</span>
+        </a>
+      </li>
+    </ul>
+    <div class="hsoub-megamenu" [ngClass]="{'hsoub-megamenu-active': isAcctive}">
+      <div class="hsoub-megamenu-row">
+        <div class="hsoub-megamenu-column">
+          <ul class="hsoub-bullets">
+            <li class="hsoub-bullet-head">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/business">
+                أعمال
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/business/data-entry">
+                ادخال بيانات
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/business/business-tips">
+                استشارات أعمال
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/business/ecommerce-services">
+                تجارة الكترونية
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/business/legal-services">
+                خدمات قانونية
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/business/finance-services">
+                خدمات مالية
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/business/research-services">
+                دراسات وأبحاث
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/business/virtual-assistant">
+                مساعد افتراضي
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/business/business-services">
+                أخرى
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="hsoub-megamenu-column">
+          <ul class="hsoub-bullets">
+            <li class="hsoub-bullet-head">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/programming">
+                برمجة وتطوير
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/programming/content-management-systems">
+                أنظمة ادارة المحتوى
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/programming/beta-testing">
+                اختبارات تجريبية
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/programming/linux">
+                السيرفرات ولينكس
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/programming/css-html">
+                برمجة CSS و HTML
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/programming/java-dot-net">
+                برمجة Java و .NET
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/programming/php-programming">
+                برمجة PHP
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/programming/python-programming">
+                برمجة بايثون
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/programming/mobile-development">
+                برمجة تطبيقات الجوال
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/programming/desktop-app">
+                تطبيقات سطح المكتب
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/programming/ecommerce-development">
+                تطوير متاجر إلكترونية
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/programming/blogger">
+                خدمات مدونات بلوجر
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/programming/wordpress">
+                خدمات ووردبريس
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/programming/it-support">
+                دعم فني تقني
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/programming/programming-services">
+                أخرى
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="hsoub-megamenu-column">
+          <ul class="hsoub-bullets">
+            <li class="hsoub-bullet-head">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/marketing">
+                تسويق الكتروني
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/marketing/advertising">
+                إعلانات المواقع
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/marketing/marketing-advice">
+                استشارات تسويقية
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/marketing/mobile-marketing">
+                الإعلانات والتسويق على الجوال
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/marketing/reviews">
+                التسويق بالمحتوى
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/marketing/email-marketing">
+                التسويق عبر البريد الإلكتروني
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/marketing/instagram-marketing">
+                التسويق عبر انستقرام
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/marketing/search-engine-marketing">
+                التسويق عبر محركات البحث SEM
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/marketing/twitter-marketing">
+                التسويق على تويتر
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/marketing/snapchat-marketing">
+                التسويق على سناب شات
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/marketing/facebook-marketing">
+                التسويق على فيسبوك
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/marketing/youtube-marketing">
+                التسويق على يوتيوب
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/marketing/web-analytics">
+                تحليلات المواقع
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/marketing/seo-services">
+                خدمات SEO
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/marketing/marketing-services">
+                أخرى
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="hsoub-megamenu-column">
+          <ul class="hsoub-bullets">
+            <li class="hsoub-bullet-head">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/training">
+                تدريب عن بعد
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/training/personal-advice">
+                استشارات شخصية
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/training/health-tips">
+                الصحة واللياقة البدنية
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/training/learn-programming">
+                تعلم البرمجة
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/training/learn-marketing">
+                تعلم التسويق الالكتروني
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/training/learn-designing">
+                تعلم التصميم
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/training/learn-languages">
+                تعلم اللغات
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/training/learn-english">
+                تعلم اللغة الإنجليزية
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/training/learn-frensh">
+                تعلم اللغة الفرنسية
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/training/arts">
+                فنون وحرف
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/training/school-help">
+                مساعدة بحل الواجبات
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/training/travel-advice">
+                نصائح سياحة وسفر
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/training/training-services">
+                أخرى
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="hsoub-megamenu-row">
+        <div class="hsoub-megamenu-column">
+          <ul class="hsoub-bullets">
+            <li class="hsoub-bullet-head">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/video-design">
+                تصميم فيديو
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/video-design/gif">
+                تصميم صور متحركة
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/video-design/video-intro">
+                تصميم مقدمات فيديو
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/video-design/motion-graphics">
+                موشن جرافيك
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/video-design/video-editing">
+                مونتاج فيديو
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/video-design/white-board">
+                وايت بورد
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/video-design/video-design-services">
+                أخرى
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="hsoub-megamenu-column">
+          <ul class="hsoub-bullets">
+            <li class="hsoub-bullet-head">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/designing">
+                تصميم
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/designing/covers-design">
+                أغلفة كتب ومجلات
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/designing/banners-design">
+                تصميم بانرات إعلانية
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/designing/business-cards">
+                تصميم بطاقات أعمال
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/designing/t-shirts">
+                تصميم تيشرتات
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/designing/logo-design">
+                تصميم شعار
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/designing/presentation">
+                تصميم عروض تقديمية
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/designing/architectural-design">
+                تصميم معماري وديكور
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/designing/photo-editing">
+                خدمات تعديل الصور
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/designing/cartoons">
+                رسوم كارتونية
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/designing/brochure-flyer">
+                فلاير وبرشور ورول اب
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/designing/designing-services">
+                أخرى
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="hsoub-megamenu-column">
+          <ul class="hsoub-bullets">
+            <li class="hsoub-bullet-head">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/audio">
+                صوتيات
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/audio/audiobook-production">
+                إنتاج كتب صوتية
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/audio/mixing">
+                المعالجة الصوتية
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/audio/podcast-editing">
+                تحرير بودكاست
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/audio/voice-over">
+                تعليق صوتي
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/audio/audio-services">
+                أخرى
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="hsoub-megamenu-column">
+          <ul class="hsoub-bullets">
+            <li class="hsoub-bullet-head">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/writing">
+                كتابة وترجمة
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/writing/creative-writing">
+                الكتابة الإبداعية
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/writing/transcriptions">
+                تفريغ نصوص
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/writing/proofreading">
+                خدمات تدقيق لغوي
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/writing/translation">
+                خدمات ترجمة
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/writing/summarizing">
+                خدمات تلخيص
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/writing/resume-writing">
+                كتابة السيرة الذاتية
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/writing/sales-copy">
+                كتابة النصوص الإعلانية
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/writing/script-writing">
+                كتابة سيناريو
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/writing/specialized-writing">
+                كتابة محتوى متخصص
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/writing/website-content">
+                كتابة محتوى مواقع
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/writing/copywriting">
+                كتابة مقالات ومراجعات
+              </a>
+            </li>
+            <li class="hsoub-bullet">
+              <a class="hsoub-bullet-link" href="https://khamsat.com/writing/writing-services">
+                أخرى
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <ul class="hsoub-menu hsoub-menu--is-minor">
+      <li class="hsoub-menu-item hsoub--visible-h hsoub-desktop hsoub-tablet ">
+        <a class="hsoub-menu-item-link     " title="بحث">
+          <i class="hsoub-menu-item-link-icon fa fa-search"></i>
+
+        </a>
+      </li>
+      <li class="hsoub-menu-item hsoub--visible-h hsoub-desktop hsoub-tablet hsoub-mobile hide-xs-only">
+        <a class="hsoub-menu-item-link hsoub-menu-item-link--is-large    " href="https://khamsat.com/cart">
+          <i class="hsoub-menu-item-link-icon fa fa-shopping-cart"></i>
+
+        </a>
+        <div class="hsoub-list hsoub-list-right">
+          <ul class="hsoub-list-group" data-empty="لا توجد أي خدمات بعد"></ul><a class="hsoub-list-action-link"
+            href="https://khamsat.com/cart"><i class="fa fa-fw fa-shopping-cart"></i> اعرض سلة المشتريات</a>
+        </div>
+      </li>
+      <li class="hsoub-menu-item hsoub--visible-h hsoub-desktop hsoub-tablet hsoub-mobile">
+        <a class="hsoub-menu-item-link  hsoub-menu-item-link--is-button hsoub-menu-item-link--is-button-justified  "
+          href="https://khamsat.com/login?t=f267a10a5b2b155034e9eeaf5899f17a">
+          <i class="hsoub-menu-item-link-icon fa fa-sign-in"></i>
+          <span>دخول</span>
+        </a>
+      </li>
+      <li class="hsoub-menu-item hsoub--visible-h hsoub-desktop hsoub-tablet ">
+        <a class="hsoub-menu-item-link  hsoub-menu-item-link--is-button   "
+          href="https://khamsat.com/register?t=f267a10a5b2b155034e9eeaf5899f17a">
+          <i class="hsoub-menu-item-link-icon fa fa-user-plus"></i>
+          <span>حساب جديد</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
+

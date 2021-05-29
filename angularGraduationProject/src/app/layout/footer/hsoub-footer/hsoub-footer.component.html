@@ -1,0 +1,81 @@
+
+ 
+
+    <div id="footer">
+        <div class="footer-content">
+            <div class="hsoub-logo" style="background-color: white;">
+                <a href="http://www.hsoub.com/?utm_source=khamsat.com&amp;utm_medium=Links&amp;utm_campaign=HsoubFooter" title="نطوّر العالم العربي" class="campaign-url" target="_blank">
+                    <img src="../../../../assets/images/Home/hsoub-logo.svg" alt="حسوب">
+                </a>
+            </div>
+            <div class="footer-brands">
+              <div class="brand-item">
+                <a href="https://ana.hsoub.com/?utm_source=khamsat.com&amp;utm_medium=Links&amp;utm_campaign=HsoubFooter" class="icon brand-ana campaign-url" title="لوحتك الخاصة لتبدأ بها يومك" target="_blank"></a>
+                <a href="https://ana.hsoub.com/?utm_source=khamsat.com&amp;utm_medium=Links&amp;utm_campaign=HsoubFooter" class="url campaign-url" target="_blank">أنا</a>
+              </div>
+              <div class="brand-item">
+                <a href="https://mostaql.com/?utm_source=khamsat.com&amp;utm_medium=Links&amp;utm_campaign=HsoubFooter" class="icon brand-mostaql campaign-url" title="منصّة العمل الحر العربية" target="_blank"></a>
+                <a href="https://mostaql.com/?utm_source=khamsat.com&amp;utm_medium=Links&amp;utm_campaign=HsoubFooter" class="url campaign-url" target="_blank">مستقل</a>
+              </div>
+              <div class="brand-item">
+                <a href="https://khamsat.com/?utm_source=khamsat.com&amp;utm_medium=Links&amp;utm_campaign=HsoubFooter" class="icon brand-khamsat campaign-url" title="سوق بيع وشراء الخدمات المصغّرة" target="_blank"></a>
+                <a href="https://khamsat.com/?utm_source=khamsat.com&amp;utm_medium=Links&amp;utm_campaign=HsoubFooter" class="url campaign-url" target="_blank">خمسات</a>
+              </div>
+              <div class="brand-item">
+                <a href="https://baaeed.com/?utm_source=khamsat.com&amp;utm_medium=Links&amp;utm_campaign=HsoubFooter" class="icon brand-baaeed campaign-url" title="وظّف عن بعد" target="_blank"></a>
+                <a href="https://baaeed.com/?utm_source=khamsat.com&amp;utm_medium=Links&amp;utm_campaign=HsoubFooter" class="url campaign-url" target="_blank">بعيد</a>
+              </div>
+              <div class="brand-item">
+                <a href="https://academy.hsoub.com/?utm_source=khamsat.com&amp;utm_medium=Links&amp;utm_campaign=HsoubFooter" class="icon brand-academy campaign-url" title="تعلّم وطوّر مهاراتك" target="_blank"></a>
+                <a href="https://academy.hsoub.com/?utm_source=khamsat.com&amp;utm_medium=Links&amp;utm_campaign=HsoubFooter" class="url campaign-url" target="_blank">أكاديمية حسوب</a>
+              </div>
+              <div class="brand-item">
+                <a href="https://wiki.hsoub.com/?utm_source=khamsat.com&amp;utm_medium=Links&amp;utm_campaign=HsoubFooter" class="icon brand-wiki campaign-url" title="مرجع المطورين العرب" target="_blank"></a>
+                <a href="https://wiki.hsoub.com/?utm_source=khamsat.com&amp;utm_medium=Links&amp;utm_campaign=HsoubFooter" class="url campaign-url" target="_blank">موسوعة حسوب</a>
+              </div>
+              <div class="brand-item">
+                <a href="https://io.hsoub.com/?utm_source=khamsat.com&amp;utm_medium=Links&amp;utm_campaign=HsoubFooter" class="icon brand-io campaign-url" title="ناقش أشخاصًا بنفس اهتماماتك" target="_blank"></a>
+                <a href="https://io.hsoub.com/?utm_source=khamsat.com&amp;utm_medium=Links&amp;utm_campaign=HsoubFooter" class="url campaign-url" target="_blank">حسوب I/O</a>
+              </div>
+              <div class="brand-item">
+                <a href="https://ads.hsoub.com/?utm_source=khamsat.com&amp;utm_medium=Links&amp;utm_campaign=HsoubFooter" class="icon brand-hsoub campaign-url" title="أعلن على الإنترنت في العالم العربي" target="_blank"></a>
+                <a href="https://ads.hsoub.com/?utm_source=khamsat.com&amp;utm_medium=Links&amp;utm_campaign=HsoubFooter" class="url campaign-url" target="_blank">إعلانات حسوب</a>
+              </div>
+              <div class="brand-item">
+                <a href="https://suar.me/?utm_source=khamsat.com&amp;utm_medium=Links&amp;utm_campaign=HsoubFooter" class="icon brand-suar campaign-url" title="خدمة رفع ومشاركة الصور" target="_blank"></a>
+                <a href="https://suar.me/?utm_source=khamsat.com&amp;utm_medium=Links&amp;utm_campaign=HsoubFooter" class="url campaign-url" target="_blank">صور</a>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+      function sendHeightToParent() {
+        var height = document.getElementById("footer").offsetHeight;
+        window.parent.postMessage(height, '*');
+      }
+
+      window.addEventListener("load", function(){
+        sendHeightToParent();
+      }, false);
+
+      window.addEventListener("resize", function(){
+        sendHeightToParent();
+      }, false);
+
+      var campaignSrc = window.location.hash.replace('#', ''),
+          campaignUrl = "?utm_source=" + campaignSrc + "&utm_medium=Links&utm_campaign=HsoubFooter",
+          campaignElements = document.getElementsByClassName('campaign-url');
+
+      for(var i=0; i< campaignElements.length; i++) {
+        /*
+        if(campaignSrc != '' && campaignElements[i].href.indexOf(campaignSrc) != -1) {
+          campaignElements[i].parentNode.className += " hidden";
+        }
+        */
+
+        campaignElements[i].setAttribute("href", campaignElements[i].href + campaignUrl);
+      }
+    </script>
+
+
